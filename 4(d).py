@@ -13,4 +13,4 @@ print(id(s1),id(s2),id(s3))
 msg ='Aeroplane'
 ch =msg[-0]
 print(ch)
-print(msg.partition(''))
+print(msg[1:1:1])

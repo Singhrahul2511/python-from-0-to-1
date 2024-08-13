@@ -3,7 +3,7 @@ with open("log.txt") as f:
 lineno = 1
 for line in lines:
     if("python" in line):
-        print("yes python is present: ")
+        print(f"yes python is present: {lineno} ")
         break
     lineno +=1
 else:
